@@ -1,0 +1,797 @@
+/* ==========================================================================
+   Import styles
+   ========================================================================== */
+/* ==========================================================================
+   Color variables - start
+   ========================================================================== */
+/* Input fields */
+/* ==========================================================================
+   Color variables - end
+   ========================================================================== */
+/* ==========================================================================
+   Font mixins - start
+   ========================================================================== */
+@font-face {
+  font-family: 'Roboto';
+  src: url("../../../../../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../../../../../assets/fonts/Heebo-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../../../../../assets/fonts/Heebo-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../../../../../assets/fonts/Heebo-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+/* This can be changed */
+/* This can be changed */
+/* This can be changed */
+/* ==========================================================================
+   Font mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Button mixins - start
+   ========================================================================== */
+/* ==========================================================================
+   Button mixins - end
+   ========================================================================== */
+/* ==========================================================================
+   Animation keyframes - begin
+   ========================================================================== */
+@keyframes qode-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+/* ==========================================================================
+   Animation keyframes - end
+   ========================================================================== */
+/* ==========================================================================
+   Grid size mixins - begin
+   ========================================================================== */
+/* ==========================================================================
+   Grid size mixins - end
+   ========================================================================== */
+@keyframes qodef-blinking-1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes qodef-blinking-2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes qodef-blinking-3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes qi-templates-import-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.qi-templates-import-modal-opener {
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 30px;
+  letter-spacing: 0.13em;
+  outline: none;
+  box-sizing: border-box;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 9px 30px;
+  font-family: 'Heebo', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  border-radius: 5em;
+  background-color: #ee2852;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.qi-templates-import-modal-opener:hover {
+  color: #fff;
+  background-color: #db1d46;
+  border: none;
+}
+
+.qi-templates-import-modal-opener:focus {
+  box-shadow: none;
+}
+
+.qi-templates-import-modal-opener svg {
+  fill: currentColor;
+  margin-left: 3px;
+}
+
+#qi-templates-import-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 100000;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Sans', sans-serif;
+}
+
+#qi-templates-import-modal.qodef--open {
+  display: flex;
+}
+
+#qi-templates-import-modal.qodef--loading .qi-templates-import-modal-content-list-holder {
+  overflow: hidden;
+}
+
+#qi-templates-import-modal img {
+  display: block;
+  max-width: 100%;
+}
+
+#qi-templates-import-modal a:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+#qi-templates-import-modal button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+#qi-templates-import-modal button:hover {
+  background-color: transparent;
+  border: none;
+}
+
+#qi-templates-import-modal .qodef-import-masonry-list {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#qi-templates-import-modal .qodef-import-masonry-list.qodef--initialized {
+  opacity: 1;
+}
+
+#qi-templates-import-modal .qodef-import-masonry-list .qodef-grid-inner {
+  width: calc(100% + 46px);
+  margin: 0 -23px;
+}
+
+#qi-templates-import-modal .qodef-import-masonry-list article,
+#qi-templates-import-modal .qodef-import-masonry-list .qodef-import-masonry-grid-sizer {
+  width: 33.33333%;
+}
+
+@media (max-width: 1024px) {
+  #qi-templates-import-modal .qodef-import-masonry-list article,
+  #qi-templates-import-modal .qodef-import-masonry-list .qodef-import-masonry-grid-sizer {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #qi-templates-import-modal .qodef-import-masonry-list article,
+  #qi-templates-import-modal .qodef-import-masonry-list .qodef-import-masonry-grid-sizer {
+    width: 100%;
+  }
+}
+
+#qi-templates-import-modal .qodef-import-masonry-list article {
+  padding: 0 23px;
+  margin: 0 0 39px;
+  box-sizing: border-box;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 99999;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder.qodef--open {
+  opacity: 1;
+  visibility: visible;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qi-templates-import-modal-notice-holder-inner {
+  position: relative;
+  width: 430px;
+  padding: 50px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qi-templates-import-modal-notice-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qi-templates-import-modal-notice-additional-info {
+  margin: 12px 0 0;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qi-templates-import-modal-notice-additional-info p {
+  color: #ee2852;
+  margin: 0;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder h3 {
+  margin: 0 0 16px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder p {
+  margin: 0 0 3px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder p .qodef-plugin-installing-spinner {
+  visibility: hidden;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder p .qodef-plugin-installing-spinner:focus {
+  box-shadow: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder p .qodef-plugin-installing-spinner.active {
+  visibility: visible;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder p .qodef-plugin-installing-spinner .qodef-spinner-dot {
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #8e8e8e;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder p .qodef-plugin-installing-spinner .qodef-spinner-dot:nth-child(1) {
+  animation: qodef-blinking-1 2s ease forwards infinite 0s;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder p .qodef-plugin-installing-spinner .qodef-spinner-dot:nth-child(2) {
+  animation: qodef-blinking-2 2s ease forwards infinite 0s;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-required-plugins-holder p .qodef-plugin-installing-spinner .qodef-spinner-dot:nth-child(3) {
+  animation: qodef-blinking-3 2s ease forwards infinite 0s;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-install-plugin-link {
+  margin-left: 7px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-install-plugin-link.qodef-disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-install-plugin-link[data-plugin-action="activated"], #qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-install-plugin-link[data-plugin-action="not-installed"] {
+  pointer-events: none;
+  opacity: 1;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-notice-holder .qodef-install-plugin-link:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-inner {
+  max-width: 95%;
+  width: 100%;
+  height: 86%;
+  overflow: scroll;
+  background-color: #fff;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-header {
+  height: 60px;
+  background-color: #f5f5f5;
+  padding: 0 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-header .qi-templates-import-modal-logo {
+  display: flex;
+  align-items: center;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-header .qi-templates-import-modal-logo .qi-templates-import-modal-logo-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  margin-left: 7px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-header .qi-templates-import-modal-actions {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-header .qi-templates-import-modal-actions .qi-templates-import-modal-reload-holder {
+  margin-right: 17px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-header .qi-templates-import-modal-actions svg {
+  fill: #000;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-header button,
+#qi-templates-import-modal .qi-templates-import-modal-header svg {
+  display: block;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content {
+  padding: 24px 42px 0;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  #qi-templates-import-modal .qi-templates-import-modal-content {
+    padding: 15px 20px 0;
+  }
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters {
+  padding-left: 230px;
+  margin: 0 0 24px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  #qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters {
+    padding-left: 0;
+  }
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qi-templates-import-modal-content-top-filters-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-import-type-filter-item {
+  display: inline-block;
+  padding-right: 28px;
+}
+
+@media (max-width: 768px) {
+  #qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-import-type-filter-item {
+    padding-right: 5px;
+  }
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-import-type-filter-item:last-child {
+  padding-right: 0;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-import-type-filter-item a {
+  position: relative;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-import-type-filter-item a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-import-type-filter-item a.qodef--active:before, #qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-import-type-filter-item a:hover:before {
+  width: 100%;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search {
+  position: relative;
+  flex-basis: 260px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .qodef-im-search-input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4a4a4a;
+  letter-spacing: -0.02em;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #a2a2a2;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  padding: 3px 0;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .qodef-im-search-input:focus {
+  color: #000;
+  border-color: #000;
+  box-shadow: none;
+  outline: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .qodef-im-search-input:-ms-input-placeholder {
+  color: #4a4a4a;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .qodef-im-search-input::placeholder {
+  color: #4a4a4a;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .qodef-im-search-submit-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .qodef-im-search-submit-icon:focus {
+  box-shadow: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .qodef-im-search-submit-icon svg {
+  width: 1em;
+  height: 1em;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .easy-autocomplete-container {
+  position: absolute;
+  width: 100% !important;
+  z-index: 2;
+  top: 35px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .easy-autocomplete-container ul {
+  background-color: #fff;
+  display: none;
+  margin-top: 0;
+  padding: 17px 0 14px 0;
+  position: relative;
+  border: 1px solid #dedee1;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .easy-autocomplete-container ul li {
+  display: block;
+  color: #696969;
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 400;
+  padding: 2px 19px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .easy-autocomplete-container ul li.selected {
+  cursor: pointer;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .easy-autocomplete-container ul li.selected div {
+  font-weight: 400;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .easy-autocomplete-container ul li div {
+  display: block;
+  font-weight: normal;
+  word-break: break-all;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-top-filters .qodef-im-search .easy-autocomplete-container ul li b {
+  font-weight: normal;
+  color: #000;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-main-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-left-filters {
+  width: 230px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-left-filters .qodef-filter-item {
+  margin: 0 0 13px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-left-filters .qodef-filter-item .qodef-filter-item-name {
+  position: relative;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-left-filters .qodef-filter-item .qodef-filter-item-name:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-left-filters .qodef-filter-item.qodef--active .qodef-filter-item-name:before, #qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-left-filters .qodef-filter-item:hover .qodef-filter-item-name:before {
+  width: 100%;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-list-holder {
+  flex-grow: 1;
+  position: relative;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-list-holder .qi-templates-import-modal-content-list-inner {
+  min-height: calc(86vh - 147px);
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-list-holder .qi-templates-import-modal-spinner-holder {
+  position: fixed;
+  left: 2.5%;
+  right: 2.5%;
+  top: 7%;
+  bottom: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-list-holder .qi-templates-import-modal-spinner-holder.qodef--visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-content-list-holder .qi-templates-import-modal-spinner-holder .qi-templates-import-modal-spinner {
+  display: block;
+  width: 20px;
+  height: auto;
+  animation: qi-templates-import-spin 2s infinite linear;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-demos-import {
+  display: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-demos-import .qi-templates-import-modal-demos-import-title {
+  font-family: 'Heebo', sans-serif;
+  font-size: 32px;
+  line-height: 1.25em;
+  color: #000;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin: 31px 0 22px;
+  max-width: 40%;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-demos-import .qi-templates-import-modal-demos-import-button {
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 30px;
+  letter-spacing: 0.13em;
+  outline: none;
+  box-sizing: border-box;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 9px 30px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  border-radius: 5em;
+  background-color: #ee2852;
+  color: #fff;
+  border: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-demos-import .qi-templates-import-modal-demos-import-button:hover {
+  color: #fff;
+  background-color: #db1d46;
+  border: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-modal-demos-import .qi-templates-import-modal-demos-import-button:focus {
+  box-shadow: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-inner,
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-image,
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-image-media,
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qodef-im-no-results {
+  display: block;
+  width: 100%;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item.qi-templates-import-item-templates .qi-templates-import-item-image {
+  transform: none;
+  transition: none;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item.qi-templates-import-item-templates .qi-templates-import-item-image-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-image {
+  position: relative;
+  box-shadow: 5px 5px 22px 2px rgba(0, 0, 0, 0.08);
+  will-change: transform;
+  transform-style: preserve-3d;
+  perspective: 2000px;
+  transition: transform 0.33s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform: translate3d(0, 0, 0);
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-info-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 21px 0 0;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-info-holder .qi-templates-import-item-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-info-holder .qi-templates-import-item-button {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  font-family: Heebo, sans-serif;
+  box-shadow: none;
+  margin: 0 12px;
+  transition: .3s ease-out;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-info-holder .qi-templates-import-item-button svg {
+  fill: currentColor;
+  margin-left: 1px;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-info-holder .qi-templates-import-item-button svg path {
+  fill: currentColor;
+}
+
+#qi-templates-import-modal .qi-templates-import-modal-content .qi-templates-import-list .qi-templates-import-item-info-holder .qi-templates-import-item-button:hover {
+  color: #ee2852;
+}

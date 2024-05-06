@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="12.989" y1="17.623" x2="23.989" y2="17.623"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="12.989" y1="15.561" x2="20.987" y2="15.561"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="12.989" y1="12.631" x2="23.989" y2="12.631"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="12.989" y1="10.568" x2="20.989" y2="10.568"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="12.989" y1="7.578" x2="23.989" y2="7.578"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="12.989" y1="5.516" x2="20.989" y2="5.516"/>
+<path fill="none" d="M0,23.417"/>
+<rect y="4.5" fill="none" width="9.958" height="16"/>
+<polygon fill="#EE2852" points="10.958,3 0,3 0,4 9.958,4 9.958,20 0,20 0,21 10.958,21 "/>
+</svg>

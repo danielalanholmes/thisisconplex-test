@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<path fill="none" stroke="#EE2852" stroke-miterlimit="10" d="M16.5,20.449c0,0.549-0.488,0.994-1.091,0.994H8.591
+	c-0.602,0-1.091-0.445-1.091-0.994V4.436c0-0.548,0.489-0.993,1.091-0.993h6.818c0.603,0,1.091,0.445,1.091,0.993V20.449z"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="0" y1="7.458" x2="5" y2="7.458"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="0" y1="12.443" x2="5" y2="12.443"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="0" y1="17.443" x2="5" y2="17.443"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="19" y1="7.451" x2="24" y2="7.451"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="19" y1="12.436" x2="24" y2="12.436"/>
+<line fill="none" stroke="#EE2852" stroke-miterlimit="10" x1="19" y1="17.436" x2="24" y2="17.436"/>
+</svg>

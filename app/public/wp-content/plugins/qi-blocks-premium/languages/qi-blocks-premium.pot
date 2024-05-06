@@ -1,0 +1,4998 @@
+# Copyright (C) 2023 Qode Interactive
+# This file is distributed under the same license as the Qi Blocks Premium plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Qi Blocks Premium 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qi-blocks-premium\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-02T14:41:30+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: qi-blocks-premium\n"
+
+#. Plugin Name of the plugin
+msgid "Qi Blocks Premium"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://qodeinteractive.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A selection of premium blocks for the Gutenberg block editor, developed by Qode Interactive."
+msgstr ""
+
+#. Author of the plugin
+msgid "Qode Interactive"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://qodeinteractive.com/"
+msgstr ""
+
+#: class-qi-blocks-premium.php:125
+msgid "Qi Blocks plugin is required for Qi Blocks Premium plugin to work properly. Please install/activate it first."
+msgstr ""
+
+#: helpers/helper.php:20
+msgid "Qi Blocks - Pro"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/integration/class-qi-blocks-premium-admin-page-integration.php:29
+msgid "Google Maps API Key"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/integration/class-qi-blocks-premium-admin-page-integration.php:30
+msgid "Note: This setting is required if you wish to use Google Maps in your website. Need help to get Google Maps Api key? Read this article ."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/integration/class-qi-blocks-premium-admin-page-integration.php:61
+#: inc/admin/admin-pages/sub-pages/integration/templates/integration.php:6
+msgid "Integration Page"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/integration/class-qi-blocks-premium-admin-page-integration.php:125
+msgid "Saved"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/integration/templates/parts/service.php:18
+msgid "Type here..."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:37
+msgid "Registration Page"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:50
+msgid "Register"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:50
+msgid "Deregister"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:125
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:166
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:227
+msgid "An error occurred, please try again."
+msgstr ""
+
+#. translators: the license key expiration date
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:137
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:144
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:148
+msgid "Invalid license."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:153
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. translators: the plugin name
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:158
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:162
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:178
+msgid "Plugin registered successfully"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-blocks-premium-admin-page-registration.php:244
+msgid "Success"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/helper.php:124
+msgid "Options data is array with all selected shortcode parameters value"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/helper.php:149
+msgid "Plugin deregistered."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/helper.php:151
+msgid "Something went wrong"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/helper.php:154
+msgid "Plugin is already deregistered"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:6
+msgid "Welcome to Qi Blocks"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:11
+msgid "Registration"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:12
+msgid "Please input the purchase code received with your copy of Qi Blocks Premium in order to register the plugin"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:15
+msgid "Register Qi Blocks"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:17
+msgid "Purchase code"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:21
+msgid "Please Wait..."
+msgstr ""
+
+#. translators: the plugin name.
+#: inc/admin/updater/class-qi-blocks-premium-updater.php:209
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: inc/admin/updater/class-qi-blocks-premium-updater.php:215
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: inc/admin/updater/class-qi-blocks-premium-updater.php:220
+msgid "%1$sView version %2$s details%3$s."
+msgstr ""
+
+#: inc/admin/updater/class-qi-blocks-premium-updater.php:228
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#: inc/admin/updater/class-qi-blocks-premium-updater.php:239
+msgid "Update now."
+msgstr ""
+
+#: inc/admin/updater/class-qi-blocks-premium-updater.php:471
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: inc/admin/updater/class-qi-blocks-premium-updater.php:471
+msgid "Error"
+msgstr ""
+
+#: inc/blocks/add-to-cart-button/class-qi-blocks-premium-add-to-cart-button-block.php:14
+msgid "Add to Cart Button"
+msgstr ""
+
+#: inc/blocks/add-to-cart-button/class-qi-blocks-premium-add-to-cart-button-block.php:15
+#: inc/blocks/product-category-list/class-qi-blocks-premium-product-category-list-block.php:15
+#: inc/blocks/product-slider/class-qi-blocks-premium-product-slider-block.php:15
+#: inc/blocks/rating/class-qi-blocks-premium-rating-block.php:15
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/blocks/add-to-cart-button/class-qi-blocks-premium-add-to-cart-button-block.php:1008
+msgid "Please choose the product."
+msgstr ""
+
+#: inc/blocks/advanced-navigation/class-qi-blocks-premium-advanced-navigation-block.php:15
+#: assets/dist/advanced-navigation.js:1
+msgid "Advanced Navigation"
+msgstr ""
+
+#: inc/blocks/advanced-navigation/class-qi-blocks-premium-advanced-navigation-block.php:16
+#: inc/blocks/before-after/class-qi-blocks-premium-before-after-block.php:15
+#: inc/blocks/cards-slider/class-qi-blocks-premium-cards-slider-block.php:15
+#: inc/blocks/content-menu/class-qi-blocks-premium-content-menu-block.php:16
+#: inc/blocks/dual-image-with-content/class-qi-blocks-premium-dual-image-with-content-block.php:15
+#: inc/blocks/image-hotspots/class-qi-blocks-premium-image-hotspots-block.php:15
+#: inc/blocks/item-showcase/class-qi-blocks-premium-item-showcase-block.php:15
+msgid "Showcase/Presentational"
+msgstr ""
+
+#: inc/blocks/advanced-navigation/class-qi-blocks-premium-advanced-navigation-block.php:1406
+#: assets/dist/advanced-navigation.js:1
+msgid "Close the menu"
+msgstr ""
+
+#: inc/blocks/advanced-navigation/class-qi-blocks-premium-advanced-navigation-block.php:1415
+#: inc/blocks/advanced-navigation/class-qi-blocks-premium-advanced-navigation-block.php:1429
+#: inc/blocks/advanced-navigation/class-qi-blocks-premium-advanced-navigation-block.php:1507
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:231
+#: assets/dist/advanced-navigation.js:1
+msgid "Open the menu"
+msgstr ""
+
+#: inc/blocks/advanced-navigation/class-qi-blocks-premium-advanced-navigation-block.php:1441
+#: inc/blocks/content-menu/class-qi-blocks-premium-content-menu-block.php:443
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:170
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Please choose an Navigation menu"
+msgstr ""
+
+#: inc/blocks/advanced-navigation/class-qi-blocks-premium-advanced-navigation-block.php:1507
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:231
+msgid "Show sub menu"
+msgstr ""
+
+#: inc/blocks/animated-text/class-qi-blocks-premium-animated-text-block.php:14
+#: assets/dist/animated-text.js:1
+msgid "Animated Text"
+msgstr ""
+
+#: inc/blocks/animated-text/class-qi-blocks-premium-animated-text-block.php:15
+#: inc/blocks/blockquote/class-qi-blocks-premium-blockquote-block.php:15
+#: inc/blocks/dropcaps/class-qi-blocks-premium-dropcaps-block.php:15
+#: inc/blocks/highlight/class-qi-blocks-premium-highlight-block.php:15
+#: inc/blocks/info-button/class-qi-blocks-premium-info-button-block.php:15
+#: inc/blocks/typeout-text/class-qi-blocks-premium-typeout-text-block.php:15
+#: assets/dist/image-hotspots.js:1
+msgid "Typography"
+msgstr ""
+
+#: inc/blocks/before-after/class-qi-blocks-premium-before-after-block.php:14
+#: assets/dist/before-after.js:1
+msgid "Before/After Comparison Slider"
+msgstr ""
+
+#: inc/blocks/blockquote/class-qi-blocks-premium-blockquote-block.php:14
+#: assets/dist/blockquote.js:1
+msgid "Blockquote"
+msgstr ""
+
+#: inc/blocks/blog-slider/class-qi-blocks-premium-blog-slider-block.php:14
+#: assets/dist/blog-slider.js:1
+msgid "Blog Carousel"
+msgstr ""
+
+#: inc/blocks/blog-slider/class-qi-blocks-premium-blog-slider-block.php:15
+#: inc/blocks/business-hours/class-qi-blocks-premium-business-hours-block.php:15
+#: inc/blocks/clients-slider/class-qi-blocks-premium-clients-slider-block.php:15
+#: inc/blocks/data-table/class-qi-blocks-premium-data-table-block.php:15
+#: inc/blocks/google-map/class-qi-blocks-premium-google-map-block.php:15
+#: inc/blocks/interactive-banner/class-qi-blocks-premium-interactive-banner-block.php:15
+#: inc/blocks/pricing-list/class-qi-blocks-premium-pricing-list-block.php:15
+#: inc/blocks/testimonials-slider/class-qi-blocks-premium-testimonials-slider-block.php:15
+msgid "Business"
+msgstr ""
+
+#: inc/blocks/business-hours/class-qi-blocks-premium-business-hours-block.php:14
+#: assets/dist/business-hours.js:1
+msgid "Working Hours"
+msgstr ""
+
+#: inc/blocks/cards-slider/class-qi-blocks-premium-cards-slider-block.php:14
+#: assets/dist/cards-slider.js:1
+msgid "Cards Slider"
+msgstr ""
+
+#: inc/blocks/charts/class-qi-blocks-premium-charts-block.php:14
+#: assets/dist/charts.js:1
+msgid "Pie and Donut Charts"
+msgstr ""
+
+#: inc/blocks/charts/class-qi-blocks-premium-charts-block.php:15
+#: inc/blocks/graphs/class-qi-blocks-premium-graphs-block.php:15
+msgid "Infographics"
+msgstr ""
+
+#: inc/blocks/clients-slider/class-qi-blocks-premium-clients-slider-block.php:14
+#: assets/dist/clients-slider.js:1
+msgid "Clients Carousel"
+msgstr ""
+
+#: inc/blocks/content-menu/class-qi-blocks-premium-content-menu-block.php:15
+#: assets/dist/content-menu.js:1
+msgid "Content Menu"
+msgstr ""
+
+#: inc/blocks/data-table/class-qi-blocks-premium-data-table-block.php:14
+#: assets/dist/data-table.js:1
+msgid "Data Table"
+msgstr ""
+
+#: inc/blocks/device-carousel/class-qi-blocks-premium-device-carousel-block.php:14
+#: assets/dist/device-carousel.js:1
+msgid "Device Frame Carousel"
+msgstr ""
+
+#: inc/blocks/device-carousel/class-qi-blocks-premium-device-carousel-block.php:15
+#: inc/blocks/device-slider/class-qi-blocks-premium-device-slider-block.php:15
+#: inc/blocks/interactive-link-showcase/class-qi-blocks-premium-interactive-link-showcase-block.php:15
+#: inc/blocks/preview-slider/class-qi-blocks-premium-preview-slider-block.php:15
+#: inc/blocks/slider-switch/class-qi-blocks-premium-slider-switch-block.php:15
+msgid "Creative"
+msgstr ""
+
+#: inc/blocks/device-slider/class-qi-blocks-premium-device-slider-block.php:14
+#: assets/dist/device-slider.js:1
+msgid "Device Frame Slider"
+msgstr ""
+
+#: inc/blocks/dropcaps/class-qi-blocks-premium-dropcaps-block.php:14
+#: assets/dist/dropcaps.js:1
+msgid "Drop Caps"
+msgstr ""
+
+#: inc/blocks/dual-image-with-content/class-qi-blocks-premium-dual-image-with-content-block.php:14
+msgid "Dual Image with Content"
+msgstr ""
+
+#: inc/blocks/google-map/class-qi-blocks-premium-google-map-block.php:14
+#: assets/dist/google-map.js:1
+msgid "Google Map"
+msgstr ""
+
+#: inc/blocks/graphs/class-qi-blocks-premium-graphs-block.php:14
+#: assets/dist/graphs.js:1
+msgid "Graphs"
+msgstr ""
+
+#: inc/blocks/highlight/class-qi-blocks-premium-highlight-block.php:14
+#: assets/dist/highlight.js:1
+msgid "Highlighted Text"
+msgstr ""
+
+#: inc/blocks/image-hotspots/class-qi-blocks-premium-image-hotspots-block.php:14
+#: assets/dist/image-hotspots.js:1
+msgid "Image Hotspots"
+msgstr ""
+
+#: inc/blocks/info-button/class-qi-blocks-premium-info-button-block.php:14
+#: assets/dist/info-button.js:1
+msgid "Info Button"
+msgstr ""
+
+#: inc/blocks/interactive-banner/class-qi-blocks-premium-interactive-banner-block.php:14
+msgid "Interactive Banners"
+msgstr ""
+
+#: inc/blocks/interactive-link-showcase/class-qi-blocks-premium-interactive-link-showcase-block.php:14
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Interactive Links"
+msgstr ""
+
+#: inc/blocks/item-showcase/class-qi-blocks-premium-item-showcase-block.php:14
+#: assets/dist/item-showcase.js:1
+msgid "Item Showcase"
+msgstr ""
+
+#: inc/blocks/preview-slider/class-qi-blocks-premium-preview-slider-block.php:14
+#: assets/dist/preview-slider.js:1
+msgid "Preview Slider"
+msgstr ""
+
+#: inc/blocks/pricing-list/class-qi-blocks-premium-pricing-list-block.php:14
+#: assets/dist/pricing-list.js:1
+msgid "Pricing List"
+msgstr ""
+
+#: inc/blocks/product-category-list/class-qi-blocks-premium-product-category-list-block.php:14
+#: assets/dist/product-category-list.js:1
+msgid "Product Category List"
+msgstr ""
+
+#: inc/blocks/product-category-list/templates/post-info/button.php:5
+#: assets/dist/product-category-list.js:1
+msgid "View More"
+msgstr ""
+
+#: inc/blocks/product-slider/class-qi-blocks-premium-product-slider-block.php:14
+#: assets/dist/product-slider.js:1
+msgid "Product Slider"
+msgstr ""
+
+#: inc/blocks/rating/class-qi-blocks-premium-rating-block.php:14
+#: assets/dist/rating.js:1
+msgid "Rating"
+msgstr ""
+
+#: inc/blocks/slider-switch/class-qi-blocks-premium-slider-switch-block.php:14
+#: assets/dist/slider-switch.js:1
+msgid "Slider Switch"
+msgstr ""
+
+#: inc/blocks/testimonials-slider/class-qi-blocks-premium-testimonials-slider-block.php:14
+#: assets/dist/testimonials-slider.js:1
+msgid "Testimonials Carousel"
+msgstr ""
+
+#: inc/blocks/typeout-text/class-qi-blocks-premium-typeout-text-block.php:14
+#: assets/dist/typeout-text.js:1
+msgid "Typeout Text"
+msgstr ""
+
+#: inc/blocks/wp-forms/class-qi-blocks-premium-wp-forms-block.php:14
+msgid "WPForms"
+msgstr ""
+
+#: inc/blocks/wp-forms/class-qi-blocks-premium-wp-forms-block.php:15
+msgid "Form Style"
+msgstr ""
+
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:53
+msgid "Qi Blocks Navigation"
+msgstr ""
+
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:93
+#: inc/wp-forms/class-qi-blocks-premium-wp-forms-rest-api.php:55
+msgid "Get method is invalid"
+msgstr ""
+
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:103
+msgid "Navigation menus are successfully returned"
+msgstr ""
+
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:105
+msgid "No available navigation menus"
+msgstr ""
+
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:113
+#: inc/woocommerce/class-qi-blocks-premium-woocommerce-rest-api.php:58
+#: inc/wp-forms/class-qi-blocks-premium-wp-forms-rest-api.php:86
+msgid "Rest is invalid"
+msgstr ""
+
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:157
+msgid "No menu was found or there are no items inside it"
+msgstr ""
+
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:168
+msgid "Returned navigation menu HTML content"
+msgstr ""
+
+#: inc/nav-menu/class-qi-blocks-premium-nav-menu.php:170
+#: inc/wp-forms/class-qi-blocks-premium-wp-forms-rest-api.php:96
+msgid "Parameters are invalid"
+msgstr ""
+
+#: inc/woocommerce/class-qi-blocks-premium-woocommerce-rest-api.php:27
+msgid "View Cart"
+msgstr ""
+
+#: inc/woocommerce/class-qi-blocks-premium-woocommerce-rest-api.php:89
+msgid "Product categories are successfully returned"
+msgstr ""
+
+#: inc/woocommerce/class-qi-blocks-premium-woocommerce-rest-api.php:91
+msgid "No products matching query!"
+msgstr ""
+
+#: inc/wp-forms/class-qi-blocks-premium-wp-forms-rest-api.php:76
+msgid "Contact forms are successfully returned"
+msgstr ""
+
+#: inc/wp-forms/class-qi-blocks-premium-wp-forms-rest-api.php:78
+msgid "No available contact forms"
+msgstr ""
+
+#: inc/wp-forms/class-qi-blocks-premium-wp-forms-rest-api.php:94
+msgid "Returned contact form HTML content"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+msgid "--Choose product--"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+msgid "Add to cart"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/animated-text.js:1
+#: assets/dist/before-after.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/cards-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/google-map.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+#: assets/dist/typeout-text.js:1
+#: assets/dist/wp-forms.js:1
+msgid "Content"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/animated-text.js:1
+#: assets/dist/before-after.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/cards-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/google-map.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+#: assets/dist/typeout-text.js:1
+#: assets/dist/wp-forms.js:1
+msgid "Style"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/animated-text.js:1
+#: assets/dist/before-after.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/cards-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/google-map.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+#: assets/dist/typeout-text.js:1
+#: assets/dist/wp-forms.js:1
+msgid "Advanced"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "General"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+msgid "Select Product"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+msgid "Layout"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Filled"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Outlined"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Textual"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Type"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Standard"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "With Inner Border"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Boxed"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Enable Button Text Underline"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Size"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Normal"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Small"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Large"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Normal Full Width"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/item-showcase.js:1
+msgid "Icon"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Background Color"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Background Hover Color"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Reveal Background"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/animated-text.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "None"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/before-after.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Horizontal"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/before-after.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Vertical"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Stroke Width"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Hover Move"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Horizontal Short"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Diagonal"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Position"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Right"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Left"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Enable Icon Side border"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Margin"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Side Border Color"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Side Border Hover Color"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Side Border Height"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Icon Side Border Width"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Button Text Typography"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/cards-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/wp-forms.js:1
+msgid "Hover"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Border Width"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Border Radius"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Padding"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Inner Border Style"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Change Color"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Draw From Center"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Draw From One Point"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Draw From Two Points"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Remove To Center"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Remove To One Point"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Remove To Two Points"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Move To Outer Edge"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Inner Border Offset"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Inner Border Width"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Underline Style"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Enable Hover Underline Draw"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Underline Offset"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Underline Thickness"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Underline Alignment"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+msgid "Please choose the product"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+msgid "Add To Cart Button"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+msgid "Display customizable add to cart buttons for your products."
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+msgid "add to cart"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+msgid "woocommerce"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/info-button.js:1
+msgid "button"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+msgid "ecommerce"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+msgid "shop"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+msgid "online store"
+msgstr ""
+
+#: assets/dist/add-to-cart-button.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/animated-text.js:1
+#: assets/dist/before-after.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/cards-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/google-map.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+#: assets/dist/typeout-text.js:1
+#: assets/dist/wp-forms.js:1
+msgid "qi"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Premium Options"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Enable Sticky Column"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Sticky Column Top Position"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Sticky Column Height"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/image-hotspots.js:1
+msgid "Default"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Fit Screen"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Disable Sticky Column"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+#: assets/dist/business-hours.js:1
+msgid "Never"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Below 1024px"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Below 768px"
+msgstr ""
+
+#: assets/dist/advanced-column-extended.js:1
+msgid "Below 680px"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "--Choose menu--"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Choose Menu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Full Screen"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/rating.js:1
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Set Drop Down Trigger"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Enabling this option, the menu item will open the dropdown menu on click otherwise arrow icon opens the menu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Main Menu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Menu Typography"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Active"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/product-slider.js:1
+msgid "Item Background Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Even Background Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Hover Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Hover Background Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Active Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Active Background Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Vertical Padding"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Horizontal Padding"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Space Between Items"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Enable Border Between Items"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Border Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Border Thickness"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Menu Item Style"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "With Icon"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "With Active Icon"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "With Active Underline"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "With Active Floating Underline"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "With Active Background SVG"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Icon"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Move Icon on Hover"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Icon Appear"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Fade In"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Reveal From Center Horizontal"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Reveal From Center Vertical"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Reveal From Left"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Icon Position"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Icon Vertical Offset"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Icon Size"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Space Between Item and Icon"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Underline Distance"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "Item Underline Thickness"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Drop Down Menu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Menu Area"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Menu Item"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Width"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/product-category-list.js:1
+msgid "Background Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Top Bottom Space"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Item Vertical Space"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Item Horizontal Space"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Mobile Menu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Menu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Submenu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Area"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Opener"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Menu Width"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Menu Vertical Space"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Menu Background Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/rating.js:1
+msgid "Icon Size"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/clients-slider.js:1
+msgid "Icon Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/info-button.js:1
+msgid "Icon Hover Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Icon Active Color"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Submenu Typography"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Full Screen Menu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Close Icon"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Menu Alignment"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/rating.js:1
+msgid "Center"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/clients-slider.js:1
+msgid "Icon Top Position"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/clients-slider.js:1
+msgid "Icon Right Position"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "Item Arrow Size"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "A straightforward way to display your menus in a vast number of easily configurable appearance styles."
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "navigation"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "nav"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/before-after.js:1
+#: assets/dist/cards-slider.js:1
+#: assets/dist/content-menu.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+msgid "showcase"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "menu"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+#: assets/dist/content-menu.js:1
+msgid "menu item"
+msgstr ""
+
+#: assets/dist/advanced-navigation.js:1
+msgid "dropdown"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Title"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/item-showcase.js:1
+msgid "Appear Animation"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+msgid "Split title"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+msgid "By Word"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+msgid "By Letter"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/highlight.js:1
+msgid "Appear Delay"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/highlight.js:1
+msgid "Set Appear Delay"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Title Tag"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Title Color"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Title Typography"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/product-category-list.js:1
+msgid "Title Padding"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+msgid "Display visually engaging sections with animated textual content."
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+msgid "animated text"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/item-showcase.js:1
+msgid "text"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/blockquote.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/typeout-text.js:1
+msgid "typography"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/highlight.js:1
+msgid "appear animation"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+#: assets/dist/typeout-text.js:1
+msgid "letter by letter"
+msgstr ""
+
+#: assets/dist/animated-text.js:1
+msgid "word by word"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Drag"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+#: assets/dist/pricing-list.js:1
+msgid "Image Before"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Image After"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Handle Text"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Orientation"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Default Offset"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Handle Top Offset"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Handle Circle Size"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Handle Line Size"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Handle Circle Color"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Handle Text Color"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Handle Text Typography"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "Create interactive presentations containing two images and a handle which reveals left/right image when mouse-dragged."
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "before"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "after"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "comparison"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+msgid "drag"
+msgstr ""
+
+#: assets/dist/before-after.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/cards-slider.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/google-map.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "interactive"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/blog-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Top"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Inline"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+#: assets/dist/typeout-text.js:1
+msgid "Text"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/rating.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Spacing"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+msgid "Text Alignment"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+msgid "Icon Alignment"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/typeout-text.js:1
+msgid "Text Tag"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+#: assets/dist/typeout-text.js:1
+msgid "Text Color"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/dropcaps.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/highlight.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/typeout-text.js:1
+msgid "Text Typography"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/business-hours.js:1
+msgid "Holder Padding"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Text Margin Top"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/interactive-banner.js:1
+msgid "Text..."
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+msgid "A simple way to display eye-catching quotes and style them the way you choose."
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+msgid "blockquote"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "quote"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/info-button.js:1
+#: assets/dist/item-showcase.js:1
+msgid "icon"
+msgstr ""
+
+#: assets/dist/blockquote.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "quotation"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Read More"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Image Proportions"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Custom"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Custom Image Size"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Height"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Apply Changes"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Query"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Apply Query Changes"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Item Layout"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Boxed"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Date Boxed"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Info On Image"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Side Image"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Show Excerpt"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Excerpt Length"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Center Content"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Show Media"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Show Info Icons"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Show Date"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-slider.js:1
+msgid "Show Category"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Show Author"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Show Button"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Slider Full Height"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Read More Button"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Read More Text"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "If nothing is entered, 'Read More' text will be used"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Read More Button Icon"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Title Hover Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/clients-slider.js:1
+msgid "Title Hover Underline"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Excerpt Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Excerpt Typography"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Info Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Info Hover Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Info Typography"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Info Icons Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Image Border Radius"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Image Hover"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Zoom In"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Zoom Out"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Move"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Image Hover Zoom Origin"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/charts.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Bottom"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Overlay Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Overlay Hover Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Bottom Info Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Bottom Info Hover Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Bottom Info Typography"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Layout Spacing Style"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Post Info Margin Bottom"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Title Margin Bottom"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Text Margin Bottom"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Content Padding"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Image Margin Bottom"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/product-category-list.js:1
+msgid "Image Width"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/cards-slider.js:1
+msgid "Content Style"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/product-slider.js:1
+msgid "Content Background Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Item Shadow"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Date Style"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Date Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Date Hover Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Date Typography"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Date Background Color"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Date Padding"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Read More Button Style"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "No posts were found for provided query parameters."
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "Display your blog posts in eye-catching carousel slider layouts."
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "blog"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+msgid "post"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/device-carousel.js:1
+msgid "carousel"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/cards-slider.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "slider"
+msgstr ""
+
+#: assets/dist/blog-slider.js:1
+#: assets/dist/business-hours.js:1
+#: assets/dist/clients-slider.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/google-map.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "business"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-banner.js:1
+msgid "Subtitle"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Enable Column Responsive Layout"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Under 768px"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Under 680px"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Under 480px"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Enable Separator"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Adds separator inner block."
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Menu Items"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Name of the Day"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Saturday"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "09:00 - 17:00"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Item"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Day"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Hours"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+#: assets/dist/graphs.js:1
+#: assets/dist/pricing-list.js:1
+msgid "Line"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Day Tag"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Day Color"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Day Typography"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Hours Color"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Hours Typography"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+#: assets/dist/pricing-list.js:1
+msgid "Line Type"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Between"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Below"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+#: assets/dist/interactive-banner.js:1
+msgid "Subtitle Tag"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+#: assets/dist/image-hotspots.js:1
+msgid "Subtitle Color"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Subtitle Typography"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Enable Text Underline"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "Items Padding"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+#: assets/dist/interactive-banner.js:1
+msgid "Subtitle Margin Bottom"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "A great and intuitive way to display your business’ working hours in a number easily styled manners."
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "open hours"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "working time"
+msgstr ""
+
+#: assets/dist/business-hours.js:1
+msgid "hours of work"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Image Shuffle Style"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Shuffle Right"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Shuffle Left"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Image Items"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+msgid "Image"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Link"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Offset Step"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Slider Navigation Style"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Navigation Arrow Previous"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Navigation Arrow Next"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+#: assets/dist/wp-forms.js:1
+msgid "Initial"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Enable Hover Arrow Move"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Navigation Arrow Size"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Navigation Arrow Holder Width"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Navigation Arrow Holder Height"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Navigation Margin Top"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Navigation Left Offset"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Space Between Arrows"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "Create presentations with images stacked on top of each other; on slide change, bottom image moves to the top of the stack."
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/item-showcase.js:1
+#: assets/dist/slider-switch.js:1
+msgid "image"
+msgstr ""
+
+#: assets/dist/cards-slider.js:1
+msgid "shuffle"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Label 1"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Label 2"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Label 3"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Values"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Data Value"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Data Label"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Hover Background Color"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Pattern Image"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Border Color"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Hover Border Color"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Chart"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Legend"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Chart Alignment"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Chart Type"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Pie"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Doughnut"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Chart Width"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Chart Aspect Ratio"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Chart Border Width"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Chart Hover Border Width"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Title Margin Top"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Text Padding"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Enable Chart Legend"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Legend Position"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Legend Alignment"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Start"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "End"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Label Bar Width"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Label Bar Height"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Label Bar Margin"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Legend Label Color"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Legend Label Font Family"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Legend Label Font Size"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "Legend Label Font Weight"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/interactive-banner.js:1
+msgid "Title..."
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "Display fully customizable pie charts or donut charts in a simple and completely intuitive manner."
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/graphs.js:1
+msgid "infographics"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/graphs.js:1
+msgid "chart"
+msgstr ""
+
+#: assets/dist/charts.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/graphs.js:1
+msgid "data"
+msgstr ""
+
+#: assets/dist/charts.js:1
+msgid "graph"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Enable Boxed Items"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Hover Type"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Change Image"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Opacity"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Scale"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Horizontal Rollover"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Vertical Rollover"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Clients"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Client Image"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Client Hover Image"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Client Title"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Client Text"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Client Link"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Client Icon"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Navigation"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+#: assets/dist/data-table.js:1
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Pagination"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Images Margin Bottom"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Box Item Padding"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Underline Animation Duration"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Short"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Long"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "Showcase your clients or business partners in fully customizable carousel slider layouts."
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "clients"
+msgstr ""
+
+#: assets/dist/clients-slider.js:1
+msgid "business partners"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "This element displays only the first menu items hierarchy level"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Enable Responsive Menu"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "If enabled, content menu will be displayed vertically on touch devices"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Chose Responsive Breakpoint"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Screen Size 1024"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Screen Size 768"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Screen Size 680"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Item Icon Structure"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Together"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Apart"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "Create sections containing menus which you can fully customize with ease."
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "horizontal menu"
+msgstr ""
+
+#: assets/dist/content-menu.js:1
+msgid "vertical menu"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Column 1"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Column 2"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Column 3"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Column 4"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell 1"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell 2"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell 3"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell 5"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell 6"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell 7"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Column"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Item Text"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Rows Per Page"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Enable Row Counter"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Counter Cell Width"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Column Width"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Item Type"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Image Size"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Main Title"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Table Layout"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Auto"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Fixed"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Table Alignment"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Minimal Width"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Headings Row Background Color"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "First Column Background Color"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+#: assets/dist/product-category-list.js:1
+msgid "Border Style"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "All"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Inside Only"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Heading Cell Padding"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell Padding"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Main Title Tag"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Main Title Color"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Main Title Typography"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell Text Color"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Cell Text Typography"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Text Link Color"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Text Link Typography"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Text Link Underline"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Hover Underline"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Initial Underline"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Alignment"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Typography"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Color"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Arrow Previous"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Arrow Next"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Arrows Size"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Item Border Radius"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Item Width"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Item Height"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Space Between Pagination Items"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Pagination Margin Top"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Add"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Add Heading"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Add Text Item"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Add Image Item"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Replace Image"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "Remove Image"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "An easy way to display fully adjustable tables containing all types of data."
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "table"
+msgstr ""
+
+#: assets/dist/data-table.js:1
+msgid "columns"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+msgid "Device Alignment"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/image-hotspots.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Middle"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+msgid "Device Items"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Device Frame"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Mobile"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+msgid "Mobile Landscape"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Tablet"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Laptop"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Custom Device Image"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+msgid "Device Images"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+msgid "Slide Width"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Device Width"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+msgid "Image Offsets"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Slider Settings"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+msgid "Enable Device Frame Shadow"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "mobile device"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+msgid "mobile landscape device"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "tablet device"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "laptop device"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+msgid "Compose remarkable carousel presentations with multiple items containing images fitted inside device-styled frames."
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "creative"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "mobile"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "tablet"
+msgstr ""
+
+#: assets/dist/device-carousel.js:1
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "laptop"
+msgstr ""
+
+#: assets/dist/device-slider.js:1
+msgid "Slide Effect"
+msgstr ""
+
+#: assets/dist/device-slider.js:1
+msgid "Slide"
+msgstr ""
+
+#: assets/dist/device-slider.js:1
+msgid "Fade"
+msgstr ""
+
+#: assets/dist/device-slider.js:1
+msgid "Enable Custom Links"
+msgstr ""
+
+#: assets/dist/device-slider.js:1
+msgid "Custom Links"
+msgstr ""
+
+#: assets/dist/device-slider.js:1
+msgid "Enter links for gallery images, separated by comma"
+msgstr ""
+
+#: assets/dist/device-slider.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Device"
+msgstr ""
+
+#: assets/dist/device-slider.js:1
+msgid "Create visually appealing slider presentations with images displayed inside predefined or custom device-styled image frames."
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Background"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Color"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Typography"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Holder Size"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Stroke Effect"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Stroke Color"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Stroke Width"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Clip Effect"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Margin"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Letter Padding"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "Introduce your paragraphs & strings of text by featuring a decorative initial letter which you can fully adapt."
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "dropcaps"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "decorative text"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "initial letter"
+msgstr ""
+
+#: assets/dist/dropcaps.js:1
+msgid "decoration"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Main Image"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Main Image Height"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Main Image Responsive Height"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Main Image Height 1440"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Main Image Height 1366"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Main Image Height 1280"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Main Image Height 1024"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Main Image Height 768"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Main Image Height 680"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Second Image"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+#: assets/dist/product-category-list.js:1
+msgid "Content Position"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Content Left from Image"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Content Right from Image"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Content Width"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Second Image Width"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Title Link Underline Draw"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Text Max Width"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Dual Image With Content"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "Create sections that contain two images, one placed over the other, with some accompanying content next to them."
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "big image"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "small image"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "split"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "divided"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "title"
+msgstr ""
+
+#: assets/dist/dual-image-with-content.js:1
+msgid "subtitle"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "New York, USA"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Pin Icon"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Addresses"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Address"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Update Map"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Map Height"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Map Style"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Enter Snazzy Map style JSON code"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Map Zoom"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Input the default zoom value for the map. Note that this value applies in the event that the map contains a single address only. In the event of multiple addresses being shown, Google Map reverts to its own zoom values in order to fit all the addresses on the screen."
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Enable Map Dragging"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Use this option to enable map dragging"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Enable Map Scroll"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Use this option to enable map scrolling"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Enable Map Street View Control"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Use this option to enable street view control on map"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Enable Map Type Control"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Use this option to enable type control on map"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Enable Map Full Screen Control"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Use this option to enable full screen control on map"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "Please note that you need to add an API key in order to display the map. To learn more about obtaining the API key and inputting it properly, "
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "please visit this link."
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "A straightforward way to display an easily editable Google Map with a customizable location pin for multiple addresses."
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "google map"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "map"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "address"
+msgstr ""
+
+#: assets/dist/google-map.js:1
+msgid "snazzy map"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Example Label 1"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Example Label 2"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Example Label 3"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "1 month, 3 months, 6 months, 12 months, 24 months"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Datasets"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Dataset Values"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Dataset Labels"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+#: assets/dist/pricing-list.js:1
+msgid "Line Color"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Line Hover Color"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Filling Modes"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Area Color"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Hover Area Color"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Enable Linear Mode"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Data Labels"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Graph"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Tick"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Graph Type"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Bar"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Graph Alignment"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Graph Width"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Graph Hover Border Width"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Bar Size"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Category Size"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Enable Graph Legend"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Minimum Data Value"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Maximum Data Value"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Step Size"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "Display captivating and fully customizable graphs containing all sorts of data."
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "graphs"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "dataset"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "bar"
+msgstr ""
+
+#: assets/dist/graphs.js:1
+msgid "line"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "Lorem ipsum dolor sit amet, <span class=\"qodef-highlight-text\">consectetur</span> adipiscing elit. Praesent et eros eu felis"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+#: assets/dist/item-showcase.js:1
+msgid "Enable Appear Animation"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "Highlight"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "Highlight Text Color"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "Highlight Text Background Color"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "Highlight Top Offset"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "Highlight Bottom Offset"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "Highlight Padding"
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "Accentuate certain words or parts of your text the way you choose."
+msgstr ""
+
+#: assets/dist/highlight.js:1
+msgid "highlight"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Title 1"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Subtitle 1"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Title 2"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Subtitle 2"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Title 3"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Subtitle 3"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Spots"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Horizontal Position"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Vertical Position"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Vertical Offset"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Horizontal Offset"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Fade Info Position"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Style"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Size"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Color"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Holder Background Color"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Holder Size"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Pin Holder Border Radius"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Style"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Display"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Fade in"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Reveal"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Position"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info With Arrow"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Offset from Pin"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Background Color"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Padding"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Border Radius"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Title Style"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Info Subtitle Style"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "Create an image showcase section which contains multiple interactive hotspots which reveal tooltip information when hovered on."
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "pin"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "tooltip"
+msgstr ""
+
+#: assets/dist/image-hotspots.js:1
+msgid "block"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "Click Here"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "See More Here"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+#: assets/dist/product-category-list.js:1
+msgid "Button Text"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "Button Subtext"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "Button Link"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "Subtext Typography"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "Subtext Color"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "Subtext Hover Color"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "Great for creating buttons that contain a bit of extra information displayed directly on the button."
+msgstr ""
+
+#: assets/dist/info-button.js:1
+msgid "advanced button"
+msgstr ""
+
+#: assets/dist/info-button.js:1
+#: assets/dist/interactive-link-showcase.js:1
+msgid "link"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Subtitle..."
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "From Bottom"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Image Switch"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Revealing"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/pricing-list.js:1
+msgid "Enable Button"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Enable Link Overlay"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Hover Image"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Banner Padding"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Image Side Width"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Content Margin Right"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Button Margin Top"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Interactive Banner"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "Create visually striking banners that your website visitors can interact with."
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+msgid "banner"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/interactive-link-showcase.js:1
+msgid "hover"
+msgstr ""
+
+#: assets/dist/interactive-banner.js:1
+#: assets/dist/typeout-text.js:1
+msgid "animated"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/rating.js:1
+msgid "Split"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+#: assets/dist/pricing-list.js:1
+#: assets/dist/slider-switch.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Items"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Image Position"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Image Offset"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Stretch Image"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Separator Character"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Hide Images"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Enable Full Height"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "List Padding"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "List Width"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "List Position"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Images Width"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Title Hover Style"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Underline"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Line Through"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Hover Line Thickness"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Hover Line Offset"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Text Hover Color"
+msgstr ""
+
+#: assets/dist/interactive-link-showcase.js:1
+msgid "Create captivating and fully configurable interactive showcases with textual content and corresponding images."
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Side Icon"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Child Items"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Additional"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "No"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Number"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/wp-forms.js:1
+msgid "Spacing Style"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Image Top Offset"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Image Side Margin"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Item Space"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Icon/Number Margins"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Side Margins"
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "Make showcases for items of any sort; display an item image with informative sections arranged around the image."
+msgstr ""
+
+#: assets/dist/item-showcase.js:1
+msgid "presentation"
+msgstr ""
+
+#: assets/dist/preview-slider.js:1
+msgid "Images"
+msgstr ""
+
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Device Image"
+msgstr ""
+
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Device Bottom Offset"
+msgstr ""
+
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "Device Right Offset"
+msgstr ""
+
+#: assets/dist/preview-slider.js:1
+msgid "Create two-image slider presentations, with images placed on top of each other inside a mobile device-styled frame."
+msgstr ""
+
+#: assets/dist/preview-slider.js:1
+#: assets/dist/slider-switch.js:1
+msgid "device frame"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Item Image"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Description"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Price"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Price with Discount"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Price Color"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Item Spacing"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Enable Item Separator"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Separator Top Spacing"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Separator Color"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Separator Thickness"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Separator Type"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Description Color"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Description Typography"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Description Margin Top"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Image margin"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Pattern"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Line Pattern"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Line Thickness"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Line margin"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Price Typography"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Price Background Color"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Price Padding"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Price Border Radius"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "Display easily customizable lists containing items you have for sale and their prices."
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "pricing"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "price"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "tariff"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "price menu"
+msgstr ""
+
+#: assets/dist/pricing-list.js:1
+msgid "discount"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "List Appearance"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Gallery"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Masonry"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Enable Zigzag"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Zigzag Amount"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Info On Image Boxed"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Info Side With Button"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Button"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Button Icon"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Content Horizontal Alignment"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Image Padding"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+#: assets/dist/testimonials-slider.js:1
+msgid "Content Vertical Alignment"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Bottom Left"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Title Box Width"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Title Background Color"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+#: assets/dist/wp-forms.js:1
+msgid "Button Style"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "Image Style"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Title Bottom Offset"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Button Top Margin"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "Display visually attractive and fully flexible lists with your products designated to a specific category of your choice."
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+#: assets/dist/product-slider.js:1
+msgid "product"
+msgstr ""
+
+#: assets/dist/product-category-list.js:1
+msgid "categories"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Sale"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Sold"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Zoom Centered Item"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Info Below Swap"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Info Below With Hover"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Info On Image Centered"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Show Rating"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Show Sale/Sold Mark"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Item Background Hover Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Image Hover Background Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Item Padding"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Category Margin Top"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Swap Holder Margin Top"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Rating Margin Top"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Price Margin Top"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Category Style"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Category Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Category Hover Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Category Typography"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Price Style"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Old Price Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Currency Font Size"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Currency Top Offset"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Rating Style"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Rating Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Rating Icons Size"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Image Full Height"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Mark Style"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Mark Padding"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Sale Mark Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Sale Mark Background Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Sold Mark Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Sold Mark Background Color"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Mark Typography"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Mark Border Radius"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Mark Offset"
+msgstr ""
+
+#: assets/dist/product-slider.js:1
+msgid "Showcase your products in eye-catching and fully adaptable slider layouts."
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Marked Icon"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Unmarked Icon"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Vertical Alignment"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Flex Start"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Flex End"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Icon Split Size"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Marked Color"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Unmarked Color"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "Easily display a fully customizable star-styled rating with 5 degrees."
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "user rating"
+msgstr ""
+
+#: assets/dist/rating.js:1
+msgid "star rating"
+msgstr ""
+
+#: assets/dist/slider-switch.js:1
+msgid "Main Device Frame"
+msgstr ""
+
+#: assets/dist/slider-switch.js:1
+msgid "Main Custom Device Image"
+msgstr ""
+
+#: assets/dist/slider-switch.js:1
+msgid "Main Image Border Radius"
+msgstr ""
+
+#: assets/dist/slider-switch.js:1
+msgid "Main Image Offsets"
+msgstr ""
+
+#: assets/dist/slider-switch.js:1
+msgid "Main Slider Left Offset"
+msgstr ""
+
+#: assets/dist/slider-switch.js:1
+msgid "Device Image Border Radius"
+msgstr ""
+
+#: assets/dist/slider-switch.js:1
+msgid "Device Image Offsets"
+msgstr ""
+
+#: assets/dist/slider-switch.js:1
+msgid "Create visually appealing slider presentations with two images displayed inside predefined or custom device-styled image frames."
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Author"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Author Occupation"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Author Image"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Author Color"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Author Occupation Color"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Boxed Background"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Info Below"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Side Quote"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Side With Image"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Side Width"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Icon"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Color"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Size"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Position"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Background Color"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Box Size"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Border Radius"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Margin Bottom"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Quote Margin Right"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Occupation"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Boxed Padding"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Item Author Occupation Margin Top"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Item Image Margin Bottom"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Item Image Margin Right"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Item Side Margin Right"
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "Display testimonials in eye-catching carousel slider layouts."
+msgstr ""
+
+#: assets/dist/testimonials-slider.js:1
+msgid "quote author"
+msgstr ""
+
+#: assets/dist/typeout-text.js:1
+msgid "Cursor Character"
+msgstr ""
+
+#: assets/dist/typeout-text.js:1
+msgid "Typeout Words"
+msgstr ""
+
+#: assets/dist/typeout-text.js:1
+msgid "Separate words with comma. Example Word 1, Word 2..."
+msgstr ""
+
+#: assets/dist/typeout-text.js:1
+msgid "Typeout Color"
+msgstr ""
+
+#: assets/dist/typeout-text.js:1
+msgid "Feature smoothly animated type out text sections anywhere on your pages."
+msgstr ""
+
+#: assets/dist/typeout-text.js:1
+msgid "insertion point"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "--Choose form--"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Select Contact Form"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "The admin area and live website contact form appearances may differ depending on the currently active theme’s support for the editor form style in the admin section."
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Label Style"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Label Typography"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Label Color"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Input Style"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Focus"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Checkbox Style"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Checkbox Input Size"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Checkbox Input Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Checkbox Item Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Checkbox Holder Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Radio Style"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Radio Input Size"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Radio Input Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Radio Item Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Radio Holder Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Button Typography"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Button Full Width"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Form Item Space"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Label Space"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Input Padding"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Textarea Height"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Button Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Button Padding"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Global Style"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Error Style"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Error Typography"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Error Color"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Error Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Response Style"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Response Typography"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Response Color"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Response Padding"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Response Margin"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Sent Border Color"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Error Border Color"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Spam Border Color"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Invalid Border Color"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Choose a WP Form"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "WP Forms"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "Display a wide variety of fully flexible contact forms using the free Contact Form by WPForms plugin."
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "wpforms"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "form style"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "contact form"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "input field"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "checkbox"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "message"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "newsletter"
+msgstr ""
+
+#: assets/dist/wp-forms.js:1
+msgid "subscribe"
+msgstr ""

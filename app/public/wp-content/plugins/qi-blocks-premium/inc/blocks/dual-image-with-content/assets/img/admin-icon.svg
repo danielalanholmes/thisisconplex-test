@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<rect x="0.516" y="4.531" fill="none" stroke="#EE2852" stroke-miterlimit="10" width="22" height="16"/>
+<line fill="none" stroke="#EE2A53" stroke-miterlimit="10" x1="11.469" y1="4.531" x2="11.469" y2="20.208"/>
+<rect x="13.438" y="8.531" fill="none" stroke="#EE2A53" stroke-miterlimit="10" width="7" height="8"/>
+<g>
+	<path fill="#EE2852" d="M18.938,12.909h-1.585v1.622h-0.832v-1.622h-1.585v-0.754h1.585v-1.624h0.832v1.624h1.585V12.909z"/>
+</g>
+</svg>

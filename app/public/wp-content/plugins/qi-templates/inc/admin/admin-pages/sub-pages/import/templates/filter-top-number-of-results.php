@@ -1,0 +1,1 @@
+<div class="qodef-filter-number-of-results"></div>

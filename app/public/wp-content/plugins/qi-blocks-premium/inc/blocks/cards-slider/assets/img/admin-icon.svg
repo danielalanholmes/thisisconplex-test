@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+<polyline fill="none" stroke="#EE2A53" stroke-width="0.75" stroke-miterlimit="10" points="8.891,19.557 10.945,21.61 8.797,23.76 
+	"/>
+<polyline fill="none" stroke="#EE2A53" stroke-width="0.75" stroke-miterlimit="10" points="6.375,19.557 4.32,21.61 6.469,23.76 
+	"/>
+<polygon fill="none" points="5.555,5 4.32,5 4.32,17.574 17.57,17.574 17.57,16.293 5.555,16.293 "/>
+<polygon fill="none" points="18.75,15.543 19.984,15.543 19.984,2.969 6.734,2.969 6.734,4.25 18.75,4.25 "/>
+<path fill="#EE2A53" d="M5.984,1.895v2.031H4V18h14.75v-2.031h1.984V1.895H5.984z M18,17.25H4.75V4.676h1.234h0.75H18v10.543v0.75
+	V17.25z M19.984,15.219H18.75V3.926H6.734V2.645h13.25V15.219z"/>
+</svg>

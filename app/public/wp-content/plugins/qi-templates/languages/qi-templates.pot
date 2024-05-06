@@ -1,0 +1,769 @@
+# Copyright (C) 2022 Qode Interactive
+# This file is distributed under the same license as the Qi Templates plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Qi Templates 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qi-templates\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-11T12:43:46+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: qi-templates\n"
+
+#. Plugin Name of the plugin
+#: inc/admin/admin-pages/class-qi-templates-admin-general-page.php:13
+#: inc/editor/import-panel/templates/parts/header.php:6
+msgid "Qi Templates"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://qodeinteractive.com/qi-templates/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Templates for websites in all kinds of niches - from business to fashion, from tech to wedding. Developed by Qode Interactive."
+msgstr ""
+
+#. Author of the plugin
+msgid "Qode Interactive"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://qodeinteractive.com/"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-admin-page-import.php:51
+#: inc/admin/admin-pages/sub-pages/import/templates/demos-list.php:41
+#: inc/editor/import-panel/templates/import-button.php:3
+#: inc/editor/import-panel/templates/parts/import-list.php:33
+msgid "Import"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-admin-page-import.php:65
+msgid "Find a demo you wish to import"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-admin-page-import.php:105
+msgid "Demo Opened"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-admin-page-import.php:155
+msgid "Demos Reloaded"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-general-import.php:124
+msgid "Terms Imported Successfully"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-general-import.php:133
+msgid "Skip Import Attachments"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-general-import.php:146
+msgid "Attachments Imported Successfully - Block "
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-general-import.php:196
+msgid "Posts Imported Successfully"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:87
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:88
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:170
+msgid "Activated"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:93
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:157
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:94
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:157
+msgid "Activating"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:100
+msgid "Not Installed"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:101
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:105
+msgid "Installing"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-install-plugins.php:104
+msgid "Install"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-options-import.php:58
+msgid "Options Imported Successfully"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-options-import.php:60
+msgid "Problem Occurred During Options import"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-settings-pages-import.php:64
+msgid "Problem Occurred During Settings Pages Import"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-settings-pages-import.php:66
+msgid "Settings Pages Imported Successfully"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/class-qi-templates-settings-pages-import.php:69
+msgid "Problem With File Content"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/content-demos.php:13
+msgid "Reload"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/content-demos.php:67
+msgid "Plugin licence has not been activated. Please navigate to"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/content-demos.php:69
+msgid "Registration page"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/content-demos.php:70
+msgid "and activate your licence"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/content-single.php:5
+msgid "Demo List"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/demos-list.php:61
+msgid "View"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/filter-top-search.php:2
+msgid "Search demos by keyword..."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/filter-top-status.php:3
+#: inc/editor/import-panel/templates/parts/left-filters.php:8
+msgid "All"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/filter-top-status.php:5
+msgid "Premium"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/filter-top-status.php:7
+msgid "Free"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/filter.php:4
+msgid "Categories"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/filter.php:7
+msgid "All Categories"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:2
+msgid "Are you sure, you want to import Demo Data now?"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:3
+msgid "Please select import type!"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:8
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:12
+#: inc/wp/wp-importer/wordpress-importer.php:288
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:16
+msgid "The import process may take some time. Please be patient."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:18
+msgid "0%"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:21
+msgid "Import is completed"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:22
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:24
+msgid "Please contact support."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:27
+#: inc/editor/import-panel/templates/parts/demos-import.php:6
+msgid "Import Demo"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/form.php:31
+msgid "In order to complete the import process successfully, the 'allow_url_fopen' has to be enabled on your server."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/plugins.php:4
+msgid "The following plugins should be installed & activated before import:"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/single-banner-blocks.php:3
+msgid "Qi Blocks"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/single-banner-blocks.php:6
+msgid "See Blocks"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/single-banner-blocks.php:10
+msgid "Widgets"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/single-banner-templates.php:3
+msgid "See all templates"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/single-banner-templates.php:6
+msgid "Templates list"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/import/templates/single-banner-templates.php:10
+#: inc/editor/import-panel/templates/parts/top-filters.php:18
+msgid "Demos"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:60
+msgid "Registration Page"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:74
+msgid "Register"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:74
+msgid "Deregister"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:138
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:178
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:238
+msgid "An error occurred, please try again."
+msgstr ""
+
+#. translators: the license key expiration date
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:149
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:156
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:160
+msgid "Invalid license."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:165
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. translators: the plugin name
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:170
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:174
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:188
+msgid "Plugin registered successfully"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/class-qi-templates-admin-page-registration.php:253
+msgid "Success"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/helper.php:86
+msgid "Options data is array with all selected shortcode parameters value"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/helper.php:111
+msgid "Plugin deregistered."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/helper.php:113
+msgid "Something went wrong"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/helper.php:116
+msgid "Plugin is already deregistered"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:6
+msgid "Welcome to Qi Templates"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:11
+msgid "Registration"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:12
+msgid "Please input the purchase code you received with your copy of Qi Theme in order to register the Qi Templates plugin"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:15
+msgid "Register Qi Templates"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:17
+msgid "Purchase code"
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/registration/templates/registration.php:21
+msgid "Please Wait..."
+msgstr ""
+
+#: inc/admin/admin-pages/sub-pages/welcome/class-qi-templates-admin-page-welcome.php:45
+msgid "Welcome Page"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/header.php:9
+#: inc/admin/admin-pages/templates/parts/sidebar/widgets.php:4
+msgid "Admin Qode Interactive image"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/header.php:19
+msgid " / "
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/all-qi-blocks.php:3
+#: inc/admin/admin-pages/templates/parts/all-qi-blocks.php:11
+msgid "All Qi Blocks"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/all-qi-blocks.php:4
+msgid "Browse the entire collection"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/all-qi-blocks.php:7
+msgid "View Blocks"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/browse-templates.php:5
+msgid "Browse All Qi Templates"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/browse-templates.php:6
+msgid "View the complete list of included layouts"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/browse-templates.php:9
+msgid "View templates"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/browse-templates.php:13
+msgid "Browse Templates"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/footer-text.php:2
+msgid "We hope you're having a great time using the Qi Import"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/footer-text.php:7
+msgid "Leave a %s let us know about your experience!"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/footer-text.php:8
+msgid "rating"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/knowledge-base.php:4
+#: inc/admin/admin-pages/templates/parts/knowledge-base.php:20
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/knowledge-base.php:5
+msgid "Find answers to WP-related questions"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/knowledge-base.php:8
+#: inc/admin/admin-pages/templates/parts/knowledge-base.php:15
+msgid "view more"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/knowledge-base.php:11
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/knowledge-base.php:12
+msgid "Detailed Qi Blocks user guide"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/help-center.php:3
+msgid "Help Center"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/help-center.php:4
+msgid "Find answers to your questions or reach out to our support."
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/help-center.php:7
+msgid "Submit A Ticket"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/social-behance.php:21
+msgid "Behance"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/social-dribbble.php:27
+msgid "Dribbble"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/social-facebook.php:11
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/social-instagram.php:21
+msgid "Instagram"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/social-linkedin.php:14
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/social-pinterest.php:22
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/social-twitter.php:18
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/widgets.php:8
+msgid "Qi Theme & Addons for Elementor"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/widgets.php:9
+msgid "150 site demos & 100+ custom widgets"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/sidebar/widgets.php:10
+msgid "View More"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/subscribe.php:4
+msgid "Subscribe"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/subscribe.php:7
+msgid "Qode Newsletter"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/subscribe.php:8
+msgid "Subscribe to get all our news & updates"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/subscribe.php:15
+msgid "Your Email..."
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/video-tutorials.php:4
+#: inc/admin/admin-pages/templates/parts/video-tutorials.php:7
+msgid "Video Tutorials"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/video-tutorials.php:8
+msgid "Step-by-step Qi Templates tutorials"
+msgstr ""
+
+#: inc/admin/admin-pages/templates/parts/video-tutorials.php:11
+msgid "See Videos"
+msgstr ""
+
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:106
+msgid "Import data successfully reloaded"
+msgstr ""
+
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:109
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:143
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:146
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:227
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:231
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:325
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:331
+msgid "Something went wrong. Please try again later."
+msgstr ""
+
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:141
+msgid "Results filtered successfully"
+msgstr ""
+
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:207
+msgid "Please note that after you successfully install/activate all essential plugins import process will continue automatically. Once the import is finished page will reload and you can continue editing it."
+msgstr ""
+
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:209
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:222
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:224
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:328
+msgid "Item imported successfully"
+msgstr ""
+
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:219
+msgid "Warning!"
+msgstr ""
+
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:255
+msgid "You are trying to import post template on page. Please import post template on post."
+msgstr ""
+
+#: inc/editor/import-panel/class-qi-templates-import-panel.php:262
+msgid "You are trying to import page template on post. Please import page template on page."
+msgstr ""
+
+#: inc/editor/import-panel/templates/parts/demos-import.php:4
+msgid "Click here to find a Qi demo  you wish to import."
+msgstr ""
+
+#: inc/editor/import-panel/templates/parts/header.php:5
+msgid "Import Modal Logo"
+msgstr ""
+
+#: inc/editor/import-panel/templates/parts/import-list.php:22
+msgid "Qode Import Item Preview Image"
+msgstr ""
+
+#: inc/editor/import-panel/templates/parts/import-list.php:27
+msgid "Import Modal Template Frame"
+msgstr ""
+
+#: inc/editor/import-panel/templates/parts/top-filters.php:6
+msgid "Patterns"
+msgstr ""
+
+#: inc/editor/import-panel/templates/parts/top-filters.php:10
+msgid "Templates"
+msgstr ""
+
+#: inc/editor/import-panel/templates/parts/top-filters.php:14
+msgid "Wireframes"
+msgstr ""
+
+#: inc/editor/import-panel/templates/parts/top-filters.php:23
+msgid "Search..."
+msgstr ""
+
+#. translators: the plugin name.
+#: inc/updater/class-qi-templates-updater.php:221
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: inc/updater/class-qi-templates-updater.php:227
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: inc/updater/class-qi-templates-updater.php:232
+msgid "%1$sView version %2$s details%3$s."
+msgstr ""
+
+#: inc/updater/class-qi-templates-updater.php:240
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#: inc/updater/class-qi-templates-updater.php:251
+msgid "Update now."
+msgstr ""
+
+#: inc/updater/class-qi-templates-updater.php:487
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: inc/updater/class-qi-templates-updater.php:487
+msgid "Error"
+msgstr ""
+
+#: inc/wp/wp-importer/class-wxr-parser-regex.php:102
+#: inc/wp/wp-importer/class-wxr-parser-simplexml.php:47
+#: inc/wp/wp-importer/class-wxr-parser-simplexml.php:53
+#: inc/wp/wp-importer/class-wxr-parser-xml.php:107
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/wp/wp-importer/class-wxr-parser-simplexml.php:34
+#: inc/wp/wp-importer/class-wxr-parser-simplexml.php:42
+#: inc/wp/wp-importer/class-wxr-parser.php:45
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/wp/wp-importer/class-wxr-parser.php:46
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:150
+#: inc/wp/wp-importer/wordpress-importer.php:201
+#: inc/wp/wp-importer/wordpress-importer.php:205
+#: inc/wp/wp-importer/wordpress-importer.php:214
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:206
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:222
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:247
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:275
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:276
+msgid "To make it simpler for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site, such as your primary administrator account."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:278
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:291
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:295
+msgid "Submit"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:309
+msgid "Import author:"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:324
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:327
+msgid "as a new user:"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:337
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:339
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:348
+msgid "- Select -"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:407
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:466
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:517
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:578
+#: inc/wp/wp-importer/wordpress-importer.php:878
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:677
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:839
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1029
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1036
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1115
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1133
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1177
+msgid "Could not create temporary file."
+msgstr ""
+
+#. translators: 1: The WordPress error message. 2: The WordPress error code.
+#: inc/wp/wp-importer/wordpress-importer.php:1199
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#. translators: 1: The HTTP error message. 2: The HTTP error code.
+#: inc/wp/wp-importer/wordpress-importer.php:1215
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1227
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1234
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1239
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1245
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1277
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1292
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1417
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1424
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1439
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: inc/wp/wp-importer/wordpress-importer.php:1440
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
